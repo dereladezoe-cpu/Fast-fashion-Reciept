@@ -1,0 +1,102 @@
+
+
+/* Background */
+body {
+    background-color: rgb(53, 146, 189);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+   
+  
+  /* Receipt */
+  .Reciept {
+    width: 80mm;
+    min-height: 150mm;
+    background-color: rgb(255, 254, 247);
+    padding: 10mm;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    position: relative;
+    
+  }
+ .stamp {
+  position: absolute;    
+  top: 0.1mm;                
+  left: -7mm;             
+  width: 37mm;             
+  height: auto;            
+  transform: rotate(-11deg);
+  pointer-events: none; }   
+
+  .Des{
+    font-family: sans-serif;
+    text-align:left;
+    width:100%;
+    margin-left: 0;
+  }
+
+  /* Text styles */
+  h1, h3 {
+    font-family: sans-serif;
+  }
+  
+  .Total{font-weight:bold;
+}
+  p {
+    font-family: monospace;
+    text-align:left;
+    width:100%;
+    margin-left: 0;
+  }
+  
+  /* Dashed line */
+  hr {
+    border: none;
+    border-top: 1.5px dashed rgba(0, 0, 0, 0.8);
+    width: 100%;
+    margin: 6px 0;
+    transform: scaleY(1.2);
+  }
+  .Right {
+    font-family: monospace;
+    text-align:right;
+    width:100%;
+    margin-left: 0;
+  }
+  .item {
+  display: flex;
+  justify-content: space-between; 
+  width: 100%;
+  margin-bottom:6px;
+  gap:
+}
+
+.item p {
+  margin: 0; 
+}
+
+.Right {
+  text-align: right;
+  font-family: monospace;
+}
+
+.barcode{
+  position:center; width: 38mm;             
+  height: auto;  
+}
+
+.numb{
+  position:center;
+}
+
+.dere{
+  position:center;
+}
